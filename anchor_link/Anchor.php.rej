@@ -1,0 +1,18 @@
+--- Anchor.php
++++ Anchor.php
+@@ -23,15 +23,6 @@ class Anchor extends CKEditorPluginBase {
+     return $this->getLibraryPath() . '/plugin.js';
+   }
+ 
+-  /**
+-   * {@inheritdoc}
+-   */
+-  public function getDependencies(Editor $editor) {
+-    return [
+-      'fakeobjects',
+-    ];
+-  }
+-
+   /**
+    * {@inheritdoc}
+    */
